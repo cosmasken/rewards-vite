@@ -1,0 +1,27 @@
+<script >
+export default {
+    props: ['header', 'text',],
+ 
+}
+ 
+</script>
+<template>
+    <div class=" w-full h-full">
+        <div class="flex flex-row gap-4">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <path d="M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5Z" stroke="#54C1FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10.5 13.9998L12.8333 16.3332L17.5 11.6665" stroke="#003FE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="flex flex-col">
+    <p class="text-xl text-[#333] font-semibold">
+{{ header }}    
+</p>
+<p class="text-base text-[#666666] font-normal">
+{{ text }}    
+</p>
+  </div>
+
+
+</div>
+    </div>
+</template>
