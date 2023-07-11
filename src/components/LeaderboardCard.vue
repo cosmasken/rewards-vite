@@ -1,42 +1,58 @@
 <template>
-    <div class="bg-[#19009E ] flex flex-row items-center rounded-md w-full justify-between">
-  <div class="flex-1">
-    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="24" viewBox="0 0 37 24" fill="none">
-      <path d="M35.6745 4.41908C35.3169 4.16474 34.8394 4.15957 34.4777 4.40349L28.4029 8.42393C28.1693 8.58068 28.006 8.8246 27.9522 9.10176C27.8964 9.37786 27.9543 9.66543 28.1114 9.90007C28.4607 10.4233 28.6447 11.0336 28.6447 11.6658C28.6447 13.4243 27.2205 14.8548 25.4698 14.8548C23.7191 14.8548 22.2949 13.4243 22.2949 11.6658C22.2949 10.6319 22.8034 9.65714 23.6529 9.05712C24.1304 8.72079 24.2461 8.05847 23.9113 7.57786L18.9277 0.426631C18.535 -0.14221 17.5883 -0.14221 17.1956 0.426631L12.2121 7.57793C11.8772 8.05854 11.993 8.72086 12.4705 9.05719C13.32 9.65721 13.8285 10.632 13.8285 11.6659C13.8285 13.4244 12.4043 14.8549 10.6536 14.8549C8.90285 14.8549 7.47866 13.4244 7.47866 11.6659C7.47866 11.0337 7.66259 10.4233 8.01197 9.90014C8.16909 9.6655 8.22695 9.378 8.17114 9.10183C8.11738 8.82468 7.95412 8.58068 7.72051 8.424L1.64571 4.40356C1.28194 4.15964 0.80648 4.16481 0.448915 4.41915C0.0913495 4.67242 -0.074028 5.11987 0.031379 5.54549L4.33479 22.5533C4.46708 23.089 4.98381 23.4471 5.53568 23.3443C13.8491 21.9533 22.2742 21.9533 30.5877 23.3443C30.6455 23.3547 30.7055 23.3589 30.7613 23.3589C31.2388 23.3589 31.6687 23.0329 31.7887 22.5533L36.0921 5.54549C36.1974 5.1198 36.0321 4.67235 35.6745 4.41908Z" fill="url(#paint0_linear_1_964)" />
-      <defs>
-        <linearGradient id="paint0_linear_1_964" x1="18.0617" y1="23.3618" x2="18.0617" y2="1.67097e-05" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FD5900" />
-          <stop offset="1" stop-color="#FFDE00" />
-        </linearGradient>
-      </defs>
-    </svg>
-  </div>
-  <div class="flex flex-row items-center flex-6 justify-between gap-x-2">
-    <img src="../assets/person.svg" class="hidden sm:block h-[64px] w-[64px]" >
-
-    <div class="flex flex-col items-center text-white">
-      <p>Suraj Khandwal</p>
-      <p>Jaipur, Rajsthan</p>
+  <div className="bg-black/10 flex flex-row justify-start gap-3 w-full items-center pt-1 pl-6 pr-8 rounded-lg">
+  <div className="relative flex flex-col justify-start mr-8 w-10 shrink-0 items-center pt-1 px-3">
+    <img
+      src="https://file.rendit.io/n/rlZ6Gz4WSPMKRsoYYRMp.svg"
+      className="w-10 h-6 min-h-0 min-w-0 absolute top-0 left-0"
+    />
+    <div className="text-center text-xs font-['Inter'] font-bold tracking-[-0.10000000149011612] leading-[20px] text-white w-2">
+      8
     </div>
-  
-<div class="p-1 rounded-full flex flex-row items-center bg-[#00000033] gap-2 mb-3">
-   <p class="text-white text-xl font-semibold">Achievement</p>
-               
-                <img src="../assets/icon.svg" class="hidden sm:block h-[64px] w-[64px]" >
-                 <img src="../assets/icon.svg" class="hidden sm:block h-[64px] w-[64px]" >
-                  <img src="../assets/icon.svg" class="hidden sm:block h-[64px] w-[64px]" >
-                   <img src="../assets/icon.svg" class="hidden sm:block h-[64px] w-[64px]" >
-                  </div> 
-
   </div>
-
-  <div class="flex flex-row items-right flex-1">
-    <img src="../assets/person.svg" class="hidden sm:block h-[64px] w-[64px]" >
-    <div class="flex flex-col items-center">
-       <p class="text-white text-lg pb-1"> Suraj Khandwal</p>
-              <p class="text-white text-lg mb-8"> Jaipur, Rajsthan</p> 
+  <img
+    src="https://file.rendit.io/n/E26MTsmQ4HyQmhpIP2l6.png"
+    className="min-h-0 min-w-0 self-start w-16 shrink-0 mt-2 mb-1"
+  />
+  <div className="flex flex-col justify-start mr-16 gap-1 items-stretch">
+    <div className="whitespace-nowrap font-['Inter'] font-semibold tracking-[-0.6000000238418579] leading-[24px] text-white">
+      Suraj Khandwal
     </div>
-             
+    <div className="text-center whitespace-nowrap text-sm font-['Inter'] tracking-[-0.10000000149011612] leading-[20px] text-white/70 mr-2">
+      Jaipur, Rajsthan
+    </div>
+  </div>
+  <div className="bg-white/8 flex flex-row justify-start mr-[210px] gap-3 items-center pl-5 pr-3 py-2 rounded-[72px]">
+    <div className="text-sm font-['Inter'] tracking-[-0.10000000149011612] leading-[20px] text-white w-20 shrink-0">
+      Achievement
+    </div>
+    <img
+      src="https://file.rendit.io/n/q6uHlX0asgzwSQ9XLFDk.svg"
+      className="min-h-0 min-w-0 mr-px w-12 shrink-0"
+    />
+    <img
+      src="https://file.rendit.io/n/8J9Ydym7pLLX3cGaXuns.svg"
+      className="min-h-0 min-w-0 mr-px w-12 shrink-0"
+    />
+    <img
+      src="https://file.rendit.io/n/oCanGInTP10V4H2Xvu4H.svg"
+      className="min-h-0 min-w-0 mr-px w-12 shrink-0"
+    />
+    <img
+      src="https://file.rendit.io/n/2boNDS2TLYF1t2Rq6WT9.svg"
+      className="min-h-0 min-w-0 w-12 shrink-0"
+    />
+  </div>
+  <div className="relative flex flex-col justify-end w-32 shrink-0 items-end pt-6 pb-px">
+    <img
+      src="https://file.rendit.io/n/h8gL7WQBKByFH7xs1nDE.svg"
+      className="w-12 h-12 min-h-0 min-w-0 absolute top-1 left-0"
+    />
+    <div className="text-right w-20 h-[61.54%] text-xl font-['Inter'] font-semibold tracking-[-0.800000011920929] leading-[28px] text-white absolute top-0 left-10">
+      ₹6900
+    </div>
+    <div className="text-right text-sm font-['Inter'] tracking-[-0.10000000149011612] leading-[20px] text-white/70 w-1/2 h-full">
+      Rewards
+    </div>
   </div>
 </div>
 

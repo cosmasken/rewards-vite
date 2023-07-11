@@ -6,7 +6,27 @@ export default {
  
 </script>
 <template>
-    <div class="flex flex-col w-full h-full px-5 ">
+  <div class="flex flex-col justify-start gap-1 w-full items-start">
+  <div class="flex flex-row justify-start gap-2 w-12 items-center mt-0 ml-5">
+    <img
+      src="https://file.rendit.io/n/Pw7GuWhHeWCeocJP1q0m.svg"
+      class="min-h-0 min-w-0 w-6 shrink-0"
+    />
+    <div class="whitespace-nowrap text-2xl font-['Inter'] font-semibold tracking-[-1] leading-[32px] text-[#333333] w-4 shrink-0">
+      5
+    </div>
+  </div>
+  <div class="whitespace-nowrap text-sm font-['Inter'] tracking-[-0.10000000149011612] leading-[20px] text-[#666666] w-3/5 mb-1 ml-5">
+    Approved Reviews
+  </div>
+  <div class="bg-[linear-gradient(180deg,_#e6f0ff_4%,#f4f0ff_57%,#ffffff_100%)] bg-cover bg-50%_50% bg-blend-normal self-stretch flex flex-col justify-start h-48 shrink-0 items-stretch px-5 py-6 rounded-lg">
+    <div class="font-['Inter'] tracking-[-0.6000000238418579] leading-[24px] text-[#666666] mr-px">
+      Certificate of Participation (Beginner)
+    </div>
+  </div>
+</div>
+
+    <!--div class="flex flex-col w-full h-full px-5 ">
         <div  class="flex flex-row rounded-md bg-white">
     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
       <path d="M11.221 0.481373L13.9859 6.11221L20.1684 7.01516C20.8719 7.11787 21.1528 7.98689 20.6438 8.48567L16.17 12.8686L17.2261 19.0575C17.3463 19.7618 16.6108 20.2988 15.9816 19.9663L10.4518 17.0443L4.92208 19.9663C4.29285 20.2988 3.55738 19.7618 3.67758 19.0575L4.73366 12.8686L0.259956 8.48563C-0.249121 7.98685 0.0318122 7.11791 0.73535 7.01512L6.9178 6.11217L9.68268 0.481373C9.99733 -0.1594 10.9064 -0.1594 11.221 0.481373Z" fill="url(#paint0_linear_1_75)"/>
@@ -83,5 +103,5 @@ export default {
         </div>
     
     
-    </div>
+    </div-->
 </template>
