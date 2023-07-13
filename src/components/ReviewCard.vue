@@ -1,27 +1,24 @@
-<script >
-export default {
-    props: ['header', 'text',],
- 
-}
- 
-</script>
 <template>
-    <div class=" w-full h-full">
-        <div class="flex flex-row gap-4">
-  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-    <path d="M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5Z" stroke="#54C1FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M10.5 13.9998L12.8333 16.3332L17.5 11.6665" stroke="#003FE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
-  <div class="flex flex-col">
-    <p class="text-xl text-[#333] font-semibold">
-{{ header }}    
-</p>
-<p class="text-base text-[#666666] font-normal">
-{{ text }}    
-</p>
-  </div>
-
-
-</div>
-    </div>
+     <div class="flex flex-row  space-x-20 shadow-md bg-white/10  p-6">
+         <div class="basis-1/2  flex flex-col gap-1 items-stretch ">
+           <div class="relative flex flex-col  content-center pt-0 pb-24 px-12">
+             <img src="../assets/svg/person.svg" class="w-20 h-20 min-h-0 min-w-0 absolute top-4 left-5">
+             <img src="../assets/svg/king.svg" class="w-8 h-5 min-h-0 min-w-0 absolute top-0 left-10">
+             </div>
+             <p class="whitespace-nowrap  font-semibold  text-white text-start  h-6 "> Suraj Khandwal </p>
+            
+           <div class="text-start whitespace-nowrap text-sm  text-white/70 mb-3 mx-1"> Jaipur, Rajsthan </div>
+           <img src="../assets/svg/icons.png" class="min-h-0 min-w-0 self-start h-30 w-30">
+         </div>
+          <!-- right side-->
+         <div class="basis-1/2 flex flex-col  gap-4  items-stretch">
+           <div class=" flex flex-row justify-start gap-1  items-center px-2 rounded-lg bg-black/20">
+             <img src="../assets/svg/star.svg" class="min-h-0 min-w-0 mr-1 shrink-0" />
+             <div class="text-xl  font-semibold  text  shrink-0 my-1"> 35 </div>
+             <div class="text-sm   text-white "> Approved Reviews </div>
+           </div>
+           <div class="text-sm  text-white"> “The annual is named as 'SANGRILLA' which is the best thing I want to talk about and which is the best time... The annual is named as 'SANGRILLA' which is the best thing I want to talk about and which is the best time.. </div>
+           <div class="text-sm  text-white"> Kingston School of Management and Science </div>
+         </div>
+       </div>
 </template>
