@@ -47,7 +47,7 @@ import Monthly from '../components/Monthly.vue';
  </div>
 
  <div class="flex flex-col  space-y-6  w-full pb-10">
-  <img src="../assets/svg/performertop.png" class="w-full max-h-[165px]" alt="fuck"/>
+  <!--img src="../assets/svg/performertop.png" class="w-full max-h-[165px]" alt="fuck"/-->
    
       <Monthly/>
 <div class="flex flex-col space-y-4 px-32">
