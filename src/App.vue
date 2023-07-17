@@ -9,14 +9,15 @@ import Footer from './views/Footer.vue';
 </script>
 
 <template >
-<div class="font-inter bg-[420FBA] h-screen ">
-  <img src="./assets/svg/hero.png" class="w-full h-[931px] absolute top-0 cover -z=20 "/>
-  <div class="relative h-[931px] pl-40 pt-10">
+<div class="font-inter bg-white h-screen ">
+  <img src="./assets/svg/hero.png" class="w-full h-[931px] absolute top-0 cover"/>
+  <div class="relative h-[931px] pl-40 pt-10 ">
     <Hero/>
   </div>
 
   <div class="relative">
     <WinSection/>
+   
   </div>
 
  
@@ -29,7 +30,7 @@ import Footer from './views/Footer.vue';
 <div class="relative">
     <RulesandGuidelines />
   </div>
-  <img src="./assets/svg/ambassadortop.svg" class="w-full h-[201px]"/>
+  
 
   <div class="relative">
   

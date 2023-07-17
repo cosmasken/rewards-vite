@@ -6,9 +6,8 @@ import Monthly from '../components/Monthly.vue';
 </script>
 
 <template>
-  <div class="w-full  bg-[linear-gradient(350deg,_#19009e_7%,#701cdc_68%,#1c97dc_95%)] bg-cover bg-50%_50% bg-blend-normal flex flex-col">
-
- 
+  <div class="w-full  bg-[linear-gradient(350deg,_#19009e_7%,#701cdc_68%,#1c97dc_95%)] bg-cover bg-50%_50% bg-blend-normal flex flex-col pb-10">
+   
      <!-- Main container-->
     <div class=" flex flex-col items-center px-32">
         <!-- Header-->
@@ -65,6 +64,7 @@ import Monthly from '../components/Monthly.vue';
   </div>
 
     </div>
+    
 </div>
 </template>
 
