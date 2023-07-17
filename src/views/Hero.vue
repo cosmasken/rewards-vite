@@ -50,7 +50,7 @@ import RecentReview from '../components/RecentReview.vue';
           type="text"
           name="text"
           id="text"
-          className="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900  placeholder:text-gray-400  sm:text-sm sm:leading-6"
+          className="block w-full text-lg rounded-md border-0 py-1.5 pl-10 text-[#272937]  placeholder:text-gray-400  sm:text-sm sm:leading-6"
           placeholder="Search Your College experience"
         />
       </div>

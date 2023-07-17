@@ -113,10 +113,10 @@ import RewardsCard from '../components/RewardsCard.vue';
     What will you be up to?
   </div>
    <div class="flex space-y-6 flex-col rounded-xl shadow-xl mx-32 ">
-    <div class="grid grid-cols-3 px-6 py-7 gap-6">
+    <div class="grid grid-cols-3 px-6 pt-7 gap-6">
 
 
-<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-lg pt-4 pb-7">
+<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-2xl pt-4 pb-7">
 <img src="https://file.rendit.io/n/NsDQHrAMqsC2yN6Aj2vi.svg" className="min-h-0 min-w-0 w-20" />
 <p className="text-center">Review Collation</p>
 <p className="text-center ">Collate College reviews, on Collegedunia.com using your referral code and get paid for each approved Review.</p>
@@ -129,7 +129,7 @@ import RewardsCard from '../components/RewardsCard.vue';
 </div>
 
 
-<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-lg pt-4 pb-7">
+<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-2xl pt-4 pb-7">
 <img src="https://file.rendit.io/n/NsDQHrAMqsC2yN6Aj2vi.svg" className="min-h-0 min-w-0 w-20" />
 <p className="text-center">Review Collation</p>
 <p className="text-center ">Collate College reviews, on Collegedunia.com using your referral code and get paid for each approved Review.</p>
@@ -142,7 +142,7 @@ import RewardsCard from '../components/RewardsCard.vue';
 </div>
 
 
-<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-lg pt-4 pb-7">
+<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-2xl pt-4 pb-7">
 <img src="https://file.rendit.io/n/NsDQHrAMqsC2yN6Aj2vi.svg" className="min-h-0 min-w-0 w-20" />
 <p className="text-center">Review Collation</p>
 <p className="text-center ">Collate College reviews, on Collegedunia.com using your referral code and get paid for each approved Review.</p>
@@ -157,9 +157,9 @@ import RewardsCard from '../components/RewardsCard.vue';
 
 </div>
 
-<div class="grid grid-cols-2 px-6 py-7  gap-6 ">
+<div class="grid grid-cols-2 px-6 pb-7 gap-6 ">
 
-<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-lg pt-4 pb-7">
+<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-2xl pt-4 pb-7">
 <img src="https://file.rendit.io/n/NsDQHrAMqsC2yN6Aj2vi.svg" className="min-h-0 min-w-0 w-20" />
 <p className="text-center">Review Collation</p>
 <p className="text-center ">Collate College reviews, on Collegedunia.com using your referral code and get paid for each approved Review.</p>
@@ -172,7 +172,7 @@ import RewardsCard from '../components/RewardsCard.vue';
 </div>
 
 
-<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-lg pt-4 pb-7">
+<div className="overflow-hidden bg-white relative flex flex-col w-full items-center px-6 rounded-2xl pt-4 pb-7">
 <img src="https://file.rendit.io/n/NsDQHrAMqsC2yN6Aj2vi.svg" className="min-h-0 min-w-0 w-20" />
 <p className="text-center">Review Collation</p>
 <p className="text-center ">Collate College reviews, on Collegedunia.com using your referral code and get paid for each approved Review.</p>
