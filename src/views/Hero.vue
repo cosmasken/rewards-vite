@@ -32,7 +32,7 @@ import RecentReview from '../components/RecentReview.vue';
   Share your College Experience
 </div>
 
-<div className="relative mt-2 rounded-md shadow-sm max-w-[750px] bg-black ">
+<div className="relative flex flex-row max-h-[72px] mt-2 max-w-[750px] border-8 border-black rounded-md">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center m-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
   <g clip-path="url(#clip0_1_3043)">
@@ -47,10 +47,10 @@ import RecentReview from '../components/RecentReview.vue';
 </svg>
         </div>
         <input
-          type="email"
-          name="email"
-          id="email"
-          className="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-3 ring-inset ring-black/20 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          type="text"
+          name="text"
+          id="text"
+          className="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900  placeholder:text-gray-400  sm:text-sm sm:leading-6"
           placeholder="Search Your College experience"
         />
       </div>

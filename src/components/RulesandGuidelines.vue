@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-white flex flex-col items-center pt-4">
+    <div class="w-full bg-white flex flex-col items-center">
 <div class="whitespace-nowrap text-4xl  font-semibold  text-[#333333]">
   Rules and Guidelines
 </div>
@@ -9,7 +9,7 @@
 <img src="../assets/svg/rulesbg.svg"/>
   </div>
      <div class="basis-1/2 flex flex-col space-y-8 ">
-<div class="whitespace-nowrap text-xl  font-semibold  text-[#333333] w-full">
+<div class="whitespace-nowrap text-xl  font-semibold  text-[#333333] w-full pt-6">
   Key Point
 </div>
  <div class="flex flex-col space-y-5 ">

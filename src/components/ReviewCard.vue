@@ -1,5 +1,5 @@
 <template>
-     <div class="flex flex-row  space-x-20 shadow-md bg-white/10  p-6 rounded-xl">
+     <div class="flex flex-row  space-x-20 shadow-md bg-white/10  p-6 rounded-xl max-h-[302px]">
          <div class="basis-1/2  flex flex-col gap-1 items-stretch ">
            <div class="relative flex flex-col  content-center pt-0 pb-24 px-12">
              <img src="../assets/svg/person.svg" class="w-20 h-20 min-h-0 min-w-0 absolute top-4 left-5">
