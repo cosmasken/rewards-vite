@@ -26,7 +26,7 @@ export default {
   },
   extend: {
     backgroundImage: theme => ({
-     'hero-pattern': "url('./src/assets/svg/herobg.svg')",
+     'hero-pattern': "url('/src/assets/svg/hero.png')",
     })
   }
   },

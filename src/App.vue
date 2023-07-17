@@ -5,33 +5,49 @@ import TopAmbassadors from './views/TopAmbassadors.vue';
 import WeeklyTopLeaderboard from './views/WeeklyTopLeaderboard.vue';
 import Hero from './views/Hero.vue';
 import WinSection from './components/WinSection.vue';
+import Footer from './views/Footer.vue';
 </script>
 
 <template >
-<div class="font-inter">
-
-  <div class="mb-10 bg-hero-pattern h-screen" >
+<div class="font-inter bg-[420FBA] h-screen ">
+  <img src="./assets/svg/hero.png" class="w-full h-[931px] absolute top-0 cover -z=20 "/>
+  <div class="relative h-[931px] pl-40 pt-10">
     <Hero/>
   </div>
-  <section>
-    <WinSection/>
-  </section>
-  <section class="w-full px-32 bg-gradient-to-b from-[#19009E] via-[#701CDC] to-[#1C97DC]">
 
-<WeeklyTopLeaderboard/>
-  </section>
-  <section class="w-full px-32 bg-gradient-to-b from-[#19009E] via-[#701CDC] to-[#1C97DC]">
-     <TopAmbassadors />
-  </section>
-  <section> <RulesandGuidelines /></section>
-  <section><WriteReview /></section>
+  <div class="relative">
+    <WinSection/>
+  </div>
 
  
 
+  <div class="relative ">
+    <WeeklyTopLeaderboard/>
+  
+  </div>
 
+<div class="relative">
+    <RulesandGuidelines />
+  </div>
+  <img src="./assets/svg/ambassadortop.svg" class="w-full h-[201px]"/>
+
+  <div class="relative">
+  
+<WriteReview />
+  </div>
+  <div class="relative">
+<Footer />
 </div>
+    
+</div>
+
 </template>
 
 <style scoped>
-
+.hero:after {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/animation-wave-shadow/images/wave.svg) repeat-x scroll 0 0;
+}
+ .gradient {
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+      }
 </style>
