@@ -6,8 +6,8 @@ import Monthly from '../components/Monthly.vue';
 </script>
 
 <template>
-  <div class="w-full  bg-[linear-gradient(350deg,_#19009e_7%,#701cdc_68%,#1c97dc_95%)] bg-cover bg-50%_50% bg-blend-normal flex flex-col pb-10">
-   
+  <div class="w-full  bg-[linear-gradient(350deg,_#19009e_7%,#701cdc_68%,#1c97dc_95%)] bg-cover bg-50%_50% bg-blend-normal flex flex-col">
+    <img src="../assets/svg/topleaderboard.png" class="w-full " alt="fuck"/>
      <!-- Main container-->
     <div class=" flex flex-col items-center px-32">
         <!-- Header-->
@@ -46,8 +46,9 @@ import Monthly from '../components/Monthly.vue';
    </div>
  </div>
 
- <div class="flex flex-col  space-y-6  w-full">
-
+ <div class="flex flex-col  space-y-6  w-full pb-10">
+  <img src="../assets/svg/performertop.png" class="w-full max-h-[165px]" alt="fuck"/>
+   
       <Monthly/>
 <div class="flex flex-col space-y-4 px-32">
 
@@ -64,7 +65,8 @@ import Monthly from '../components/Monthly.vue';
   </div>
 
     </div>
-    
+    <img src="../assets/svg/rulestop.png" class="w-full max-h-[773px]" alt="Rules Top"/>
+
 </div>
 </template>
 

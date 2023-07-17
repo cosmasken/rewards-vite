@@ -32,19 +32,64 @@ import RecentReview from '../components/RecentReview.vue';
   Share your College Experience
 </div>
 
-<div className="shadow-lg  bg-white flex flex-row gap-6 max-w-[750px] h-16 items-center px-6 rounded-lg">
-  <img
-    src="https://file.rendit.io/n/tzZCeYhKjpiOtDHmWduD.svg"
-    className="min-h-0 min-w-0 w-6 shrink-0"
-  />
-  <div className="text-xl   text-[rgba(39,_41,_55,_0.7)] w-[287px] shrink-0 h-[26.39%]">
-    Search your College
-  </div>
-</div>
+<div className="relative mt-2 rounded-md shadow-sm max-w-[750px] bg-black ">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center m-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <g clip-path="url(#clip0_1_3043)">
+    <path d="M10 17C13.866 17 17 13.866 17 10C17 6.13401 13.866 3 10 3C6.13401 3 3 6.13401 3 10C3 13.866 6.13401 17 10 17Z" stroke="#272937" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M21 21L15 15" stroke="#272937" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_1_3043">
+      <rect width="24" height="24" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
+        </div>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          className="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-3 ring-inset ring-black/20 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          placeholder="Search Your College experience"
+        />
+      </div>
 
 <div className="whitespace-nowrap text-2xl pt-6 font-semibold  text-white/70 w-full">
   Help millions of students in making informed career decisions.
 </div>
+<div class="mt-20 mb-2">
+  <p className="text-center text-xl max-w-[221px] bg-black/20 font-semibold px-6 py-1  leading-7 text-[#e3e3ff] rounded-full">
+    Recent Winner
+  </p>
+</div>
+
+<div class="flex flex-col space-y-4">
+  <div>
+  <RecentReview/>
+</div>
+<div class="grid grid-cols-3 -ml-44 space-x-8">
+  <RecentReview/>
+  <RecentReview/>
+  <RecentReview/>
+</div>
+<div class="grid grid-cols-3 -ml-20 space-x-8">
+  <RecentReview/>
+  <RecentReview/>
+  <RecentReview/>
+</div>
+<div class="grid grid-cols-2 space-x-8">
+  <RecentReview/>
+  <RecentReview/>
+</div>
+<div class="self-end">
+  <RecentReview/>
+</div>
+
+</div>
+
+
+
 
  </div>
 </template>

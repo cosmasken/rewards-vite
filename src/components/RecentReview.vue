@@ -1,5 +1,5 @@
 <template>
-    <div className="bg-[#ffffff]/24  flex flex-row gap-2 w-full h-20 items-center  px-4">
+    <div className="bg-[#ffffff]/20  flex flex-row gap-2 max-w-[463px] h-20 items-center rounded-full  px-4">
   <div className="bg-[#ffffff]/35 flex flex-col mr-2 w-12 shrink-0 items-center p-1 rounded-full">
     <img
       src="../assets/svg/person.svg"

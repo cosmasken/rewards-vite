@@ -23,6 +23,8 @@ export default {
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
+      saira: ['Saira', 'sans-serif'],
+
   },
   extend: {
     backgroundImage: theme => ({
