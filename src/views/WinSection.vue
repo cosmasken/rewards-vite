@@ -99,7 +99,7 @@ import RewardsCard from '../components/RewardsCard.vue';
     </div>
     </div>
       </div>
-      <img src="../assets/Frame.svg" class="max-w-[518.921px]  max-h-[452.048px] relative right-[150px] shrink-0 bottom-[80px] "/>
+      <img src="../assets/Frame.svg" class="max-w-[518.921px]  max-h-[452.048px] relative right-[150px] shrink-0 bottom-[80px] z-20"/>
      
     </div>
  
